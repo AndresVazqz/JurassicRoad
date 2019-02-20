@@ -1,0 +1,35 @@
+﻿Compilación iniciada a las 14/11/2017 14:48:06.
+     1>Proyecto "C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Models\Models.vcxproj" en el nodo 2 (Rebuild destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\..\libs\assimp\include /I..\..\libs\freeglut\include /I"..\..\libs\Simple OpenGL Image Library\src" /I"..\..\libs\glew-1.13.0\include" /I..\..\libs\glm /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AssimpModel.cpp Game.cpp Level.cpp main.cpp Scene.cpp Shader.cpp ShaderProgram.cpp Texture.cpp
+         AssimpModel.cpp
+         Game.cpp
+         Level.cpp
+         main.cpp
+         Scene.cpp
+         Shader.cpp
+         ShaderProgram.cpp
+         Texture.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\Models.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\..\libs\assimp\lib /LIBPATH:"..\..\libs\Simple OpenGL Image Library\projects\VC9\Debug" /LIBPATH:"..\..\libs\glew-1.13.0\lib\Release\Win32" /LIBPATH:..\..\libs\freeglut\lib "assimp-vc120-mt.lib" freeglut.lib glew32.lib SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\Models.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\Models.lib" /MACHINE:X86 /SAFESEH Release\AssimpModel.obj
+         Release\Game.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\Scene.obj
+         Release\Shader.obj
+         Release\ShaderProgram.obj
+         Release\Texture.obj
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: se omite '/EDITANDCONTINUE' debido a la especificación '/OPT:ICF'
+     1>LINK : warning LNK4098: la biblioteca predeterminada'MSVCRTD' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+         Generando código
+         Generación de código finalizada
+     1>SOIL.lib(image_DXT.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(image_DXT.obj)' o en 'C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(image_helper.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(image_helper.obj)' o en 'C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(SOIL.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(SOIL.obj)' o en 'C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4099: no se encontró PDB 'vc100.pdb' con 'SOIL.lib(stb_image_aug.obj)' o en 'C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\vc100.pdb'; se vinculará el objeto sin tener en cuenta información de depuración
+         Models.vcxproj -> C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Release\Models.exe
+     1>Compilación del proyecto terminada "C:\GENERAL\teaching\CampusNord\Videojocs\3D\Models\Models\Models.vcxproj" (Rebuild destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:04.76
